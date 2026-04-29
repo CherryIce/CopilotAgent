@@ -1,0 +1,8 @@
+name: daily_digest
+description: "每日AI技术资讯摘要聚合，自动生成 digest 文件"
+inputs: []
+outputs:
+  - name: digest
+    type: markdown
+dependencies: ["requests"]
+version: "0.1.0"
