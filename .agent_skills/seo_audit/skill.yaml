@@ -1,0 +1,10 @@
+name: seo_audit
+description: "网站SEO问题分析与优化建议"
+inputs:
+  - name: url
+    type: string
+outputs:
+  - name: report
+    type: markdown
+dependencies: ["requests", "beautifulsoup4"]
+version: "0.1.0"
